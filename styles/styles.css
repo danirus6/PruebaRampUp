@@ -1,0 +1,9 @@
+*{
+
+}
+body{
+    display:flex;
+}
+.containerFotos{
+    display:flex;
+}
