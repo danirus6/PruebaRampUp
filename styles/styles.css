@@ -1,9 +1,157 @@
-*{
-
+* {
+        margin: 0;
+        padding: 0;
 }
+
 body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoInsta{
+    padding: 50px;
+    padding: 0.625rem;
+}
+
+nav{
+    padding-left: 2rem;
+    padding-top:3rem;
+    /* background-color: aqua; */
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: 5rem;
+}
+
+.navPrincipal ol{
+    margin-top: 0.625rem;
+    display: flex;
+    justify-content: left;
+    padding: 0.8rem;
+    width: fit-content;
+    height: auto;
+    align-items: center;
+}
+
+.navPrincipal ol img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* HEADER */
+header{
+    display: flex;
+    background-color: rgba(248, 248, 248, 0.1);
+    flex: 8;
+    flex-direction: row;
+}
+.rowPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.colPrincipal1{
     display:flex;
+    flex: 2;
+}
+.colPrincipal1 img {
+    border-radius: 50%;
+    width: 60%;
+    height: 50%;
+    margin: 2rem;
+}
+/* HEADER COL 2 */
+.colPrincipal2{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    padding: 2rem;
+    margin: 1.5rem;
+    margin-top:4rem;
+}
+.rowPrincipal2A{
+    display: flex;
+    align-items: center;
+}
+.rowPrincipal2A h2{
+    width: fit-content;
+    height: auto;
+}
+
+.follow-button {
+    background-color: #3897f0;
+    /* Color de fondo de Instagram */
+    color: white;
+    /* Color del texto */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size:smaller;
+    margin-left:1rem;
+}
+.rowPrincipal2B{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+article{
+display: flex;
+    flex-direction: row;
+}
+.storys {
+    display: flex;
+    flex-direction: row;
+    
+}
+.colSec{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    flex:0.15;
+}
+.colSec img{
+    width: 50%;
+    border-radius: 50%;
+}
+.button-bar {
+    margin-top: 0.5rem;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.icon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.text {
+    font-size: 12px;
 }
 .containerFotos{
-    display:flex;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+}
+.containerFotos img{
+    padding-top:1rem;
+    padding-bottom: 1rem;
 }
