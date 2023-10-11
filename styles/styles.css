@@ -150,8 +150,26 @@ display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
+        max-width: 70%;
 }
 .containerFotos img{
     padding-top:1rem;
     padding-bottom: 1rem;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footerContainer{
+    display: flex;
+    flex-direction:row;
+}
+.footerContainer p{
+    padding: 10px;
+}
+.line-break {
+    width: 100%;
 }
